@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_datas",
+  "info": {
+    "singularName": "site-data",
+    "pluralName": "site-datas",
+    "displayName": "Site-Data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "companyName": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "default": "11",
+      "type": "biginteger",
+      "required": true
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "linkedIn": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "snapchat": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}
